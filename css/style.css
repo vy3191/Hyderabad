@@ -1,0 +1,133 @@
+* {
+ box-sizing: border-box;
+}
+
+body {
+font-family: helvetica, sans-serif;
+color:#878787;
+font:1em/1.5;
+margin:;
+}
+a:link {
+    color:orange;
+    text-decoration: none;
+    padding: 0 9px 3px;
+}
+.arrow {
+margin-top: 70px;
+}
+.main-header{
+   height:750px;
+   background: linear-gradient(#d1f9ff, transparent 80%),
+               linear-gradient(to top, #fff, transparent),
+   url("https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQA1VXBnvstqVamDiG-notiWW5JC7mxB6cSMLoU1StIlB9dYUFM");
+
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   padding: 200px;
+   color:#fff;
+   text-align: center;
+
+}
+h1 {
+font-size: 3.625em;
+color: rgba(0,0,0,.7);
+text-shadow: 2px 1px 0 #ccc;
+text-transform: uppercase;
+line-height: 1.3;
+}
+.title{
+    font-size: 1.75em;
+    letter-spacing:0.35;
+    padding-bottom:10px;
+    color: #000;
+}
+.title:hover {
+    border-bottom: 2px solid;
+}
+.primary-content,.secondary-content {
+   width:75%;
+   max-width: 960px;
+   padding:50px 60px;
+   margin: auto;
+
+   text-align: center;
+}
+.tborder {
+border-top: 2px solid;
+}
+.introduction {
+  font-size: 1.25em; /* 20px/16px */
+  line-height: 1.6;
+  text-align: center;
+}
+.hyderabad, .visit {
+padding: 0 ;
+font-size: 1.25em;
+color: orange;
+border-bottom: 2px solid;
+margin-top: 30px;
+display:inline-block;
+
+}
+.charminar{
+ background: linear-gradient(#d9e4ec 40%, rgba(0,0,0,.4)),
+ url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKdRZrgRkIiM5XkHPhhfRigPTBHYJqMnw2oicGggK1ks98cS9v");
+ background-repeat: no-repeat;
+ background-size: cover;
+ padding: 18% 24%;
+ margin: 100px auto;
+ color: #000;
+ box-shadow: 10px 10px 10px -10px rgba(0,0,0,.7);
+}
+.charminar p {
+font-size: 1.25em;
+line-height: 1.6;
+text-align: center;
+}
+h2 {
+    text-transform: uppercase;
+    font-size: 3.54em;
+    font-weight: normal;
+    line-height: 1.1;
+    margin:0 0 .5em;
+}
+.golconda, .ramoji {
+   width:46.5%;
+   padding: 30px 10px;
+   text-align: center;
+   color: #000;
+}
+.golconda {
+
+  float:left;
+}
+.ramoji {
+
+  float:right;
+}
+img {
+  max-width:100%;
+  margin-bottom: 20px;
+}
+ul, ol {
+   margin: 30px 0;
+}
+ul>li {
+  list-style-type: none;
+  text-align: left;
+  margin-bottom:8px;
+}
+ol>li {
+
+  text-align: left;
+  margin-bottom:8px;
+}
+.main-footer {
+  clear:both;
+  text-align: center;
+  padding-top:50px;
+  padding-bottom: 60px;
+  border-top: 2px solid;
+}
